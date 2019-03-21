@@ -1,0 +1,6 @@
+D:\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\QuanLyBanHang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\QuanLyBanHang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+D:\QuanLyBanHang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.exe
+D:\QuanLyBanHang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.pdb

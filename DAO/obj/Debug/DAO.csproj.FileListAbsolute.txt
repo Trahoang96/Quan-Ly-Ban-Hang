@@ -1,0 +1,4 @@
+D:\QuanLyBanHang\bin\Debug\DAO.dll
+D:\QuanLyBanHang\bin\Debug\DAO.pdb
+D:\QuanLyBanHang\DAO\obj\Debug\DAO.dll
+D:\QuanLyBanHang\DAO\obj\Debug\DAO.pdb

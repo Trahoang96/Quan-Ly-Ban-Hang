@@ -1,0 +1,4 @@
+D:\QuanLyBanHang\bin\Debug\BUS.dll
+D:\QuanLyBanHang\bin\Debug\BUS.pdb
+D:\QuanLyBanHang\BUS\obj\Debug\BUS.dll
+D:\QuanLyBanHang\BUS\obj\Debug\BUS.pdb

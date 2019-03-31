@@ -9,7 +9,6 @@ namespace BUS
     public class UsersBUS
     {
         Users u = new Users();
-
         public bool Login(string user, string pass)
         {
             return u.Login(user, pass);

@@ -2,3 +2,8 @@ D:\QuanLyBanHang\bin\Debug\DAO.dll
 D:\QuanLyBanHang\bin\Debug\DAO.pdb
 D:\QuanLyBanHang\DAO\obj\Debug\DAO.dll
 D:\QuanLyBanHang\DAO\obj\Debug\DAO.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.dll
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.dll
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache

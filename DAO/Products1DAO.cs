@@ -22,8 +22,8 @@ namespace DAO
                 masp = dr[0].ToString();
                 tensp = dr[1].ToString();
                 donvitinh = dr[2].ToString();
-                dongia = dr[4].ToString();
-                maloaisp = dr[3].ToString();
+                dongia = dr[3].ToString();
+                maloaisp = dr[4].ToString();
 
                 Products1 s = new Products1(masp, tensp, donvitinh, dongia, maloaisp);
                 list.Add(s);
@@ -31,7 +31,6 @@ namespace DAO
             dr.Close();
             DisConnect();
             return list;
-
         }
 
         public int Add(Products1 s)

@@ -54,7 +54,7 @@ namespace QuanLyBanHang
         {
             int col = e.ColumnIndex;
 
-            if (dgvSupplier.Columns[col] is DataGridViewButtonColumn && dgvSupplier.Columns[col].Name == "Cotxoa")
+            if (dgvSupplier.Columns[col] is DataGridViewButtonColumn && dgvSupplier.Columns[col].Name == "CotXoa")
             {
                 int row = e.RowIndex;
                 String id = dgvSupplier.Rows[row].Cells["CotCanLay"].Value.ToString();
@@ -64,10 +64,10 @@ namespace QuanLyBanHang
                 {
                     List<Supplier> list = supBUS.LoadSupplier();
                     dgvSupplier.DataSource = list;
-                    MessageBox.Show("Da xoa");
+                    MessageBox.Show("Đã xóa");
                 }
                 else
-                    MessageBox.Show("Xoa that bai");
+                    MessageBox.Show("Xóa thất bại");
             }
         }
 

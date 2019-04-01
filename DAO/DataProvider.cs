@@ -13,7 +13,7 @@ namespace DAO
 
         public DataProvider()
         {
-            string cnStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=CoffeeShop1;Integrated Security=True";
+            string cnStr = "Data Source=.;Initial Catalog=CoffeeShop;Integrated Security=True";
             cn = new SqlConnection(cnStr);
         }
         public void Connect()
@@ -63,7 +63,6 @@ namespace DAO
             cmd.CommandType = System.Data.CommandType.Text;
 
             SqlDataReader dr = cmd.ExecuteReader();
-
             return dr;
         }
         public int MyExecuteNonQuery(string sql)

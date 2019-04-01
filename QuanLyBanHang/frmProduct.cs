@@ -20,11 +20,6 @@ namespace QuanLyBanHang
             InitializeComponent();
         }
 
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void frmProduct_Load(object sender, EventArgs e)
         {
             List<Products1> list = proBUS.LoadProducts1();
@@ -61,7 +56,7 @@ namespace QuanLyBanHang
             if (dgvProducts1.Columns[col] is DataGridViewButtonColumn && dgvProducts1.Columns[col].Name == "CotXoa")
             {
                 int row = e.RowIndex;
-                String id = dgvProducts1.Rows[row].Cells["Cotcanlay"].Value.ToString();
+                String id = dgvProducts1.Rows[row].Cells["CotCanLay"].Value.ToString();
                 int numberOfRows = proBUS.Delete(id);
 
                 if (numberOfRows > 0)
@@ -109,9 +104,9 @@ namespace QuanLyBanHang
             int row = e.RowIndex;
             txtId.Text = dgvProducts1.Rows[row].Cells["CotCanLay"].Value.ToString();
             txtName.Text = dgvProducts1.Rows[row].Cells["tensp"].Value.ToString();
-            txtDonvitinh.Text = dgvProducts1.Rows[row].Cells["donvitinh"].Value.ToString();
-            txtMaloaisp.Text = dgvProducts1.Rows[row].Cells["maloaisp"].Value.ToString();
-            txtDongia.Text = dgvProducts1.Rows[row].Cells["dongia"].Value.ToString();
+            txtDonvitinh.Text = dgvProducts1.Rows[row].Cells["dvtinh"].Value.ToString();
+            txtMaloaisp.Text = dgvProducts1.Rows[row].Cells["MaloaiSP"].Value.ToString();
+            txtDongia.Text = dgvProducts1.Rows[row].Cells["DonGia"].Value.ToString();
         }
     }
     

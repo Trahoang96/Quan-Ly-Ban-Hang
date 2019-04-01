@@ -29,8 +29,8 @@ namespace QuanLyBanHang
                 MessageBox.Show("Đăng nhập thành công!");
                 this.DialogResult = DialogResult.OK;
                 //this.Close();
-                //frmMenu frmMe = new frmMenu();
-                //frmMe.Show();
+                frmMenu frmMe = new frmMenu();
+                frmMe.Show();
             }
             else
             {

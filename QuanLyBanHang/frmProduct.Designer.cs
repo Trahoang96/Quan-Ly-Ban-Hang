@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.txtDongia = new System.Windows.Forms.TextBox();
             this.txtMaloaisp = new System.Windows.Forms.TextBox();
             this.txtDonvitinh = new System.Windows.Forms.TextBox();
@@ -40,14 +42,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvProducts1 = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.CotCanLay = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tensp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dvtinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaloaiSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.CotXoa = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -76,7 +76,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+            //this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
@@ -84,6 +84,26 @@
             this.splitContainer1.Size = new System.Drawing.Size(644, 412);
             this.splitContainer1.SplitterDistance = 192;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(529, 152);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.Text = "Sửa";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(405, 152);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 2;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtDongia
             // 
@@ -179,7 +199,7 @@
             this.dvtinh,
             this.DonGia,
             this.MaloaiSP,
-            this.Delete});
+            this.CotXoa});
             this.dgvProducts1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvProducts1.Location = new System.Drawing.Point(0, 0);
             this.dgvProducts1.Name = "dgvProducts1";
@@ -187,26 +207,6 @@
             this.dgvProducts1.TabIndex = 0;
             this.dgvProducts1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts1_CellClick);
             this.dgvProducts1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts1_CellContentClick);
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(405, 152);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(529, 152);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 2;
-            this.btnUpdate.Text = "Sửa";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // CotCanLay
             // 
@@ -216,6 +216,7 @@
             // 
             // tensp
             // 
+            this.tensp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.tensp.DataPropertyName = "TenSP";
             this.tensp.HeaderText = "Tên SP";
             this.tensp.Name = "tensp";
@@ -238,10 +239,11 @@
             this.MaloaiSP.HeaderText = "Mã loại SP";
             this.MaloaiSP.Name = "MaloaiSP";
             // 
-            // Delete
+            // CotXoa
             // 
-            this.Delete.HeaderText = "Xóa";
-            this.Delete.Name = "Delete";
+            this.CotXoa.HeaderText = "Xóa";
+            this.CotXoa.Name = "CotXoa";
+            this.CotXoa.Width = 50;
             // 
             // frmProduct
             // 
@@ -283,6 +285,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dvtinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaloaiSP;
-        private System.Windows.Forms.DataGridViewButtonColumn Delete;
+        private System.Windows.Forms.DataGridViewButtonColumn CotXoa;
     }
 }

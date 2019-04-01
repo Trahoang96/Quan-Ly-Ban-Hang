@@ -80,13 +80,16 @@
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(100, 20);
             this.txtUser.TabIndex = 4;
+            this.txtUser.Text = "admin";
             // 
             // txtPass
             // 
             this.txtPass.Location = new System.Drawing.Point(124, 99);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(100, 20);
             this.txtPass.TabIndex = 5;
+            this.txtPass.Text = "123";
             // 
             // frmLogin
             // 

@@ -25,3 +25,5 @@ C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.c
 C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.csproj.CopyComplete
 C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.exe
 C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.frmProduct.resources
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QuanLyBanHang\obj\x86\Debug\QuanLyBanHang.frmMenu.resources

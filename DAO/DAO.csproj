@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataProvider.cs" />
+    <Compile Include="Products1DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SupplierDAO.cs" />
     <Compile Include="Users.cs" />

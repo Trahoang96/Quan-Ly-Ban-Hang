@@ -7,3 +7,10 @@ C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.pdb
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.dll
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.pdb
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.dll
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.pdb
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.dll
+C:\Users\HP\Desktop\Quan-Ly-Ban-Hang\DAO\obj\Debug\DAO.pdb

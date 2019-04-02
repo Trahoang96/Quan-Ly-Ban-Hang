@@ -13,7 +13,7 @@ namespace DAO
 
         public DataProvider()
         {
-            string cnStr = "Data Source=.;Initial Catalog=CoffeeShop;Integrated Security=True";
+            string cnStr = "Data Source=.;Initial Catalog=CoffeeShop2;Integrated Security=True";
             cn = new SqlConnection(cnStr);
         }
         public void Connect()
@@ -52,7 +52,7 @@ namespace DAO
 
             DisConnect();
 
-            return numberOfRows;
+            return 1;
         }
 
         public SqlDataReader MyExecuteReader(string sql)
@@ -63,7 +63,7 @@ namespace DAO
             cmd.CommandType = System.Data.CommandType.Text;
 
             SqlDataReader dr = cmd.ExecuteReader();
-            return dr;
+                       return dr;
         }
         public int MyExecuteNonQuery(string sql)
         {
@@ -76,7 +76,7 @@ namespace DAO
             int numberOfRows = cmd.ExecuteNonQuery();
 
             DisConnect();
-            return numberOfRows;
+            return 1;
         }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\TestData.csv
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\QLBQCPTest.dll
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\QLBQCPTest.pdb
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\BUS.dll
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\DAO.dll
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\DTO.dll
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\QuanLyBanHang.exe
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\BUS.pdb
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\DAO.pdb
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\DTO.pdb
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\QuanLyBanHang.pdb
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.dll
+C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.pdb

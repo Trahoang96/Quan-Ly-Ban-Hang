@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using DAO;
 
-
 namespace BUS
 {
     public class UsersBUS
     {
         Users u = new Users();
+
         public bool Login(string user, string pass)
         {
             return u.Login(user, pass);
+        }
+
+        public static bool Login()
+        {
+            throw new NotImplementedException();
         }
     }
 }

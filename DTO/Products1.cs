@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
 namespace DTO
 {
     public class Products1
     {
+        
         public string MaSP { get; set; }
         public string TenSP { get; set; }
         public string DonViTinh { get; set; }

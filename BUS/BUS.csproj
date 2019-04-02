@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAO\DAO.csproj">
-      <Project>{b81972ea-8e13-4436-a66b-f1a42f84238d}</Project>
+      <Project>{B81972EA-8E13-4436-A66B-F1A42F84238D}</Project>
       <Name>DAO</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{DBFBCED4-8755-4276-A6E2-DC475649E010}</Project>
+      <Project>{F8DE15FE-2EC6-413D-BFF9-61B035FAC92A}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

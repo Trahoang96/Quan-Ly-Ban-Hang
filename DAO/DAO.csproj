@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{DBFBCED4-8755-4276-A6E2-DC475649E010}</Project>
+      <Project>{F8DE15FE-2EC6-413D-BFF9-61B035FAC92A}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

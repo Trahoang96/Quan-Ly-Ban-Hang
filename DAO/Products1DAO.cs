@@ -5,6 +5,7 @@ using System.Text;
 using DTO;
 using System.Data.SqlClient;
 
+
 namespace DAO
 {
     public class Products1DAO:DataProvider
@@ -13,9 +14,16 @@ namespace DAO
         {
             Connect();
             string sql = "SELECT * FROM SanPham";
+            //SqlCommand cmd = new SqlCommand();
+            //cmd.Connection = cn;
+            //cmd.CommandText = sql;
+            //cmd.CommandType = System.Data.CommandType.Text;
+
+            //SqlDataReader dr = cmd.ExecuteReader();
+
             SqlDataReader dr = MyExecuteReader(sql);
             string masp, tensp, donvitinh, dongia, maloaisp;
-
+            
             List<Products1> list = new List<Products1>();
             while (dr.Read())
             {
@@ -35,33 +43,39 @@ namespace DAO
 
         public int Add(Products1 s)
         {
-            string sql = "INSERT INTO SanPham values(N'" + s.MaSP + "',N'" + s.TenSP + "',N'" + s.DonViTinh + "', N'" + s.DonGia + "', N'" + s.MaLoaiSP + "')";
+            string sql = "INSERT INTO SanPham values(N'"+ s.MaSP + "',N'" + s.TenSP + "',N'"+ s.DonViTinh + "', N'"+s.DonGia+"', N'"+ s.MaLoaiSP +"')";
 
             int numberOfRows = MyExecuteNonQuery(sql);
             if (numberOfRows > 0)
-                return numberOfRows;
+                return 1;
             else
                 return -1;
         }
 
+        public int Dem(string masp)
+        {
+           string sql = "select * from SanPham";
+           int numberOfRows = MyExecuteNonQuery(sql);
+             return numberOfRows;
+        }            
         public int Delete(string masp)
         {
             string sql = "DELETE SanPham WHERE SanPham.masp = '" + masp + "'";
             int numberOfRows = MyExecuteNonQuery(sql);
             if (numberOfRows > 0)
-                return numberOfRows;
+                return 1;
             else
                 return -1;
         }
 
         public int Update(Products1 s)
         {
-            string sql = "UPDATE SanPham SET TenSP = N'" + s.TenSP + "', Donvitinh = N'" + s.DonViTinh + "', Dongia = N'" + s.DonGia + "', MaLoaiSP = N'" + s.MaLoaiSP + "' WHERE MaSP = '" + s.MaSP + "'";
+            string sql = "UPDATE SanPham SET TenSP = N'" + s.TenSP + "', Donvitinh = N'"+ s.DonViTinh +"', Dongia = N'"+ s.DonGia +"', MaLoaiSP = N'"+ s.MaLoaiSP +"' WHERE MaSP = '" + s.MaSP + "'";
             int numberOfRows = MyExecuteNonQuery(sql);
             if (numberOfRows > 0)
-                return numberOfRows;
+                return 1;
             else
                 return -1;
-        }
+        }      
     }
 }

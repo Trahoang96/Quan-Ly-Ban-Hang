@@ -108,6 +108,34 @@ namespace QuanLyBanHang
             txtMaloaisp.Text = dgvProducts1.Rows[row].Cells["MaloaiSP"].Value.ToString();
             txtDongia.Text = dgvProducts1.Rows[row].Cells["DonGia"].Value.ToString();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string masp, tensp, donvitinh, dongia, maloaisp;
+
+            masp = txtId.Text;
+            tensp = txtName.Text;
+            donvitinh = txtDonvitinh.Text;
+            dongia = txtDongia.Text;
+            maloaisp = txtMaloaisp.Text;
+
+            Products1 s = new Products1(masp, tensp, donvitinh, dongia, maloaisp);
+            int numberOfRows = proBUS.Delete(masp);
+
+            if (numberOfRows > 0)
+            {
+                List<Products1> list = proBUS.LoadProducts1();
+                dgvProducts1.DataSource = list;
+                MessageBox.Show("Xóa thành công");
+                txtId.Clear();
+                txtName.Clear();
+                txtDonvitinh.Clear();
+                txtDongia.Clear();
+                txtMaloaisp.Clear();
+            }
+            else
+                MessageBox.Show("Xóa thất bại");
+        }
     }
     
 }

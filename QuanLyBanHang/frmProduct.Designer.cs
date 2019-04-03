@@ -48,6 +48,7 @@
             this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaloaiSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CotXoa = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.btnDelete);
             this.splitContainer1.Panel1.Controls.Add(this.btnUpdate);
             this.splitContainer1.Panel1.Controls.Add(this.btnAdd);
             this.splitContainer1.Panel1.Controls.Add(this.txtDongia);
@@ -76,7 +78,6 @@
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
-            //this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
@@ -97,7 +98,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(405, 152);
+            this.btnAdd.Location = new System.Drawing.Point(338, 152);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 2;
@@ -245,6 +246,16 @@
             this.CotXoa.Name = "CotXoa";
             this.CotXoa.Width = 50;
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(435, 152);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // frmProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -286,5 +297,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaloaiSP;
         private System.Windows.Forms.DataGridViewButtonColumn CotXoa;
+        private System.Windows.Forms.Button btnDelete;
     }
 }

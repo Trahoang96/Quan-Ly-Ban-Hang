@@ -42,6 +42,7 @@
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.add = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CotXoa = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnXoaNCC = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -58,6 +59,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.btnXoaNCC);
             this.splitContainer1.Panel1.Controls.Add(this.btnUpdate);
             this.splitContainer1.Panel1.Controls.Add(this.btnAdd);
             this.splitContainer1.Panel1.Controls.Add(this.txtAddress);
@@ -70,13 +72,13 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgvSupplier);
-            this.splitContainer1.Size = new System.Drawing.Size(785, 513);
-            this.splitContainer1.SplitterDistance = 230;
+            this.splitContainer1.Size = new System.Drawing.Size(692, 449);
+            this.splitContainer1.SplitterDistance = 201;
             this.splitContainer1.TabIndex = 0;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(448, 150);
+            this.btnUpdate.Location = new System.Drawing.Point(570, 161);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
@@ -86,7 +88,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(331, 151);
+            this.btnAdd.Location = new System.Drawing.Point(369, 161);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 2;
@@ -98,21 +100,21 @@
             // 
             this.txtAddress.Location = new System.Drawing.Point(114, 113);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(100, 20);
+            this.txtAddress.Size = new System.Drawing.Size(292, 20);
             this.txtAddress.TabIndex = 1;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(114, 76);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.Size = new System.Drawing.Size(292, 20);
             this.txtName.TabIndex = 1;
             // 
             // txtId
             // 
             this.txtId.Location = new System.Drawing.Point(114, 37);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 20);
+            this.txtId.Size = new System.Drawing.Size(292, 20);
             this.txtId.TabIndex = 1;
             // 
             // label3
@@ -153,7 +155,7 @@
             this.dgvSupplier.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvSupplier.Location = new System.Drawing.Point(0, 0);
             this.dgvSupplier.Name = "dgvSupplier";
-            this.dgvSupplier.Size = new System.Drawing.Size(785, 279);
+            this.dgvSupplier.Size = new System.Drawing.Size(692, 244);
             this.dgvSupplier.TabIndex = 0;
             this.dgvSupplier.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSupplier_CellClick);
             this.dgvSupplier.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSupplier_CellContentClick);
@@ -183,11 +185,21 @@
             this.CotXoa.Name = "CotXoa";
             this.CotXoa.Width = 50;
             // 
+            // btnXoaNCC
+            // 
+            this.btnXoaNCC.Location = new System.Drawing.Point(473, 161);
+            this.btnXoaNCC.Name = "btnXoaNCC";
+            this.btnXoaNCC.Size = new System.Drawing.Size(75, 23);
+            this.btnXoaNCC.TabIndex = 4;
+            this.btnXoaNCC.Text = "Xóa";
+            this.btnXoaNCC.UseVisualStyleBackColor = true;
+            this.btnXoaNCC.Click += new System.EventHandler(this.btnXoaNCC_Click);
+            // 
             // frmSupplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 513);
+            this.ClientSize = new System.Drawing.Size(692, 449);
             this.Controls.Add(this.splitContainer1);
             this.Name = "frmSupplier";
             this.Text = "frmSupplier";
@@ -218,5 +230,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn add;
         private System.Windows.Forms.DataGridViewButtonColumn CotXoa;
+        private System.Windows.Forms.Button btnXoaNCC;
     }
 }

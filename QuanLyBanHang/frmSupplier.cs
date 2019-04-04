@@ -44,10 +44,10 @@ namespace QuanLyBanHang
             {
                 List<Supplier> list = supBUS.LoadSupplier();
                 dgvSupplier.DataSource = list;
-                MessageBox.Show("Them thanh cong");
+                MessageBox.Show("Thêm thành công");
             }
             else
-                MessageBox.Show("Them that bai");
+                MessageBox.Show("Thêm thất bại");
         }
 
         private void dgvSupplier_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -85,10 +85,10 @@ namespace QuanLyBanHang
             {
                 List<Supplier> list = supBUS.LoadSupplier();
                 dgvSupplier.DataSource = list;
-                MessageBox.Show("Sua thanh cong");
+                MessageBox.Show("Sửa thành công");
             }
             else
-                MessageBox.Show("Sua that bai");
+                MessageBox.Show("Sửa thất bại");
         }
 
         private void dgvSupplier_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -104,5 +104,28 @@ namespace QuanLyBanHang
             txtAddress.Text = dgvSupplier.Rows[row].Cells["add"].Value.ToString();
         }
 
+        private void btnXoaNCC_Click(object sender, EventArgs e)
+        {
+            string id, name, address;
+
+            id = txtId.Text;
+            name = txtName.Text;
+            address = txtAddress.Text;
+
+            Supplier s = new Supplier(id, name, address);
+            int numberOfRows = supBUS.Delete(id);
+
+            if (numberOfRows > 0)
+            {
+                List<Supplier> list = supBUS.LoadSupplier();
+                dgvSupplier.DataSource = list;
+                MessageBox.Show("Xóa thành công");
+                txtId.Clear();
+                txtName.Clear();
+                txtAddress.Clear();
+            }
+            else
+                MessageBox.Show("Xóa thất bại");
+        }
     }
 }

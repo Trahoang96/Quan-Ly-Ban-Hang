@@ -12,7 +12,6 @@ C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\bin\Debug\QuanLyBanHang.pdb
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.dll
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\QLBQCPTest\obj\Debug\QLBQCPTest.pdb
-C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\bin\Debug\TestData.csv
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\bin\Debug\QLBQCPTest.dll
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\bin\Debug\QLBQCPTest.pdb
 C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\bin\Debug\BUS.dll

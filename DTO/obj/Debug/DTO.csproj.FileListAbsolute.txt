@@ -2,3 +2,7 @@ C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\DTO\bin\Debug\DTO.dll
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\DTO\bin\Debug\DTO.pdb
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\DTO\obj\Debug\DTO.dll
 C:\Users\ADMIN\Desktop\QuanLyBanHangDHT\DTO\obj\Debug\DTO.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\bin\Debug\DTO.dll
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\bin\Debug\DTO.pdb
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\obj\Debug\DTO.dll
+C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\obj\Debug\DTO.pdb

@@ -14,10 +14,5 @@ namespace BUS
         {
             return u.Login(user, pass);
         }
-
-        public static bool Login()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

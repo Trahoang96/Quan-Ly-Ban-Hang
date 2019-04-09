@@ -1,2 +1,2 @@
-# QuanLyBanHangDHT
+# QuanLyBanHang
 Bài tập lớn

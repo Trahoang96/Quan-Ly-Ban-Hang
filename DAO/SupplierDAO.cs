@@ -50,7 +50,7 @@ namespace DAO
 
         public int Update(Supplier s)
         {
-            string sql = "UPDATE Supplier SET name = N'" + s.Name + "' WHERE id = '" + s.Id + "'";
+            string sql = "UPDATE Supplier SET name = N'" + s.Name + "', address = N'"+ s.Address +"' WHERE id = '" + s.Id + "'";
             int numberOfRows = MyExecuteNonQuery(sql);
             if (numberOfRows > 0)
                 return numberOfRows;

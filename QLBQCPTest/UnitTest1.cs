@@ -96,8 +96,8 @@ namespace QLBQCPTest
         public void ThemChiNhapTenSP()//fail
         {
             Products1DAO u = new Products1DAO();
-            sp1 = new Products1("", "Cà phê dừa", "", "", "");
-            double expected = 1;
+            sp1 = new Products1("", "Cà phê CoCa", "", "", "");
+            double expected = -1;
             double actual = u.Add(sp1);
 
             Assert.AreEqual(expected, actual);
@@ -107,7 +107,7 @@ namespace QLBQCPTest
         public void ThemChiNhapDonViTinh()//Test fail
         {
             Products1DAO u = new Products1DAO();
-            sp1 = new Products1("", "", "Cốc", "", "");
+            sp1 = new Products1("", "", "Cốcc", "", "");
             double expected = -1;
             double actual = u.Add(sp1);
 
@@ -118,7 +118,7 @@ namespace QLBQCPTest
         public void ThemChiNhapDonGia()//Test fail
         {
             Products1DAO u = new Products1DAO();
-            sp1 = new Products1("", "", "", "23000", "");
+            sp1 = new Products1("", "", "", "230000", "");
             double expected = -1;
             double actual = u.Add(sp1);
 
@@ -129,7 +129,7 @@ namespace QLBQCPTest
         public void ThemChiNhapMaLoaiSP()//Test fail
         {
             Products1DAO u = new Products1DAO();
-            sp1 = new Products1("", "", "", "", "4");
+            sp1 = new Products1("", "", "", "", "44");
             double expected = -1;
             double actual = u.Add(sp1);
 
@@ -137,10 +137,11 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void ThemNhapMaSPCoDau()//Test fail
+        public void ThemNhapMaSPQuaSoKyTu()//Test fail
         {
-            Products1DAO u = new Products1DAO();
-            sp1 = new Products1("Cà phê", "Cà phê trân châu", "Ly", "15000", "4");
+            
+            Products1DAO u = new Products1DAO();            
+            sp1 = new Products1("CP1000", "Cà phê trân châu", "Ly", "15000", "4");            
             double expected = -1;
             double actual = u.Add(sp1);
 
@@ -160,7 +161,7 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void XoaSaiMa()
+        public void XoaSaiMa()//pass
         {
             Products1DAO u = new Products1DAO();
             double expected = -1;
@@ -170,21 +171,11 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void XoaKhongNhapMaSP()
+        public void XoaKhongNhapMaSP()//pass
         {
             Products1DAO u = new Products1DAO();
             double expected = -1;
-            double actual = u.Delete("Cà phê trân châu");
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void XoaMaSPCoDau()
-        {
-            Products1DAO u = new Products1DAO();
-            double expected = 1;
-            double actual = u.Delete("sinh tố");
+            double actual = u.Delete("");
 
             Assert.AreEqual(expected, actual);
         }
@@ -196,8 +187,8 @@ namespace QLBQCPTest
         [TestMethod]
         public void SuaMaSP()
         {
-            Products1DAO u = new Products1DAO();
-            sp2 = new Products1("BB12", "Bia 333", "Chai","10000","1");
+            Products1DAO u = new Products1DAO();//pass
+            sp2 = new Products1("Bb21", "Bia bến thành", "Ly","13000","3");
             double expected = -1;
             double actual = u.Update(sp2);
 
@@ -205,7 +196,18 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void SuaTenSP()
+        public void SuaKhongNhapMaSP()//pass
+        {
+            Products1DAO u = new Products1DAO();
+            sp2 = new Products1("", "Bia bến thành", "Ly", "10000", "2");//Sửa mã loại sp
+            double expected = -1;
+            double actual = u.Update(sp2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void SuaTenSP()//pass
         {
             Products1DAO u = new Products1DAO();
             sp2 = new Products1("Bb12", "Bia bến thành", "Chai", "10000", "1");
@@ -216,7 +218,7 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void SuaDonViTinhSP()
+        public void SuaDonViTinhSP()//pass
         {
             Products1DAO u = new Products1DAO();
             sp2 = new Products1("Bb12", "Bia bến thành", "Ly", "10000", "1");
@@ -227,7 +229,7 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void SuaDonGiaSP()
+        public void SuaDonGiaSP()//pass
         {
             Products1DAO u = new Products1DAO();
             sp2 = new Products1("Bb12", "Bia bến thành", "Ly", "13000", "1");
@@ -238,7 +240,7 @@ namespace QLBQCPTest
         }
 
         [TestMethod]
-        public void SuaMaLoaiSP()
+        public void SuaMaLoaiSP()//pass
         {
             Products1DAO u = new Products1DAO();
             sp2 = new Products1("Bb12", "Bia bến thành", "Ly", "13000", "3");
@@ -246,8 +248,6 @@ namespace QLBQCPTest
             double actual = u.Update(sp2);
 
             Assert.AreEqual(expected, actual);
-        }
-
-        
+        }      
     }
 }

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="96f75f45-7486-4d87-97a3-38ae9a815b6a" name="ADMIN@HONGTHY 2019-04-11 17:22:37" runUser="HONGTHY\ADMIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc75e7d1-cc8f-4277-bdb4-190cc8087d18">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ADMIN_HONGTHY 2019-04-11 17_22_37">
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\QuanLyBanHang.exe" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\bin\Debug\DTO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\BUS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-04-11T17:22:37.3583448+07:00" queuing="2019-04-11T17:22:37.3843279+07:00" start="2019-04-11T17:22:37.3903242+07:00" finish="2019-04-11T17:22:37.7660933+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SuaDonViTinhSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="e480ebaf-11e3-9379-8d39-93e35fd33101">
+      <Execution id="15482866-87c6-4327-a829-f4c7501d175e" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaDonViTinhSP" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e480ebaf-11e3-9379-8d39-93e35fd33101" executionId="15482866-87c6-4327-a829-f4c7501d175e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="15482866-87c6-4327-a829-f4c7501d175e" testId="e480ebaf-11e3-9379-8d39-93e35fd33101" testName="SuaDonViTinhSP" computerName="HONGTHY" duration="00:00:00.0392300" startTime="2019-04-11T17:22:37.3973216+07:00" endTime="2019-04-11T17:22:37.7281162+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15482866-87c6-4327-a829-f4c7501d175e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

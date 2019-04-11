@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="27b59edc-39d1-48da-a6fb-2f7fcc975658" name="ADMIN@HONGTHY 2019-04-11 17:36:03" runUser="HONGTHY\ADMIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc75e7d1-cc8f-4277-bdb4-190cc8087d18">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ADMIN_HONGTHY 2019-04-11 17_36_03">
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\QuanLyBanHang.exe" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\bin\Debug\DTO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\BUS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-04-11T17:36:03.7293320+07:00" queuing="2019-04-11T17:36:03.8152308+07:00" start="2019-04-11T17:36:03.8402149+07:00" finish="2019-04-11T17:36:05.0278812+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="33" executed="33" passed="20" error="0" failed="13" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestLoginKhongNhapPass" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="08edbe4f-eebe-3317-b7df-3a53a33d6ca8">
+      <Execution id="ac690154-c9bb-4d6d-9bcf-3062a7da1995" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoginKhongNhapPass" />
+    </UnitTest>
+    <UnitTest name="SuaDiaChiNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="cdecf54c-19f4-2335-4817-1b319edec0be">
+      <Execution id="dc0425b9-9fa5-440c-925d-caeb072ba91d" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaDiaChiNCC" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapMaNCCVaTenNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="98024fb3-0c3e-c815-c341-2b996a7a8bb6">
+      <Execution id="04e2f2e5-0bf1-4b9a-b7f6-88d8f8b7d565" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapMaNCCVaTenNCC" />
+    </UnitTest>
+    <UnitTest name="SuaMaSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="d504082d-d82e-aded-d6bf-87b2ae561b54">
+      <Execution id="74353b68-a7c1-4731-a799-b0eb994dbb6b" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaMaSP" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapMaSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="bdc35583-7428-0979-c2a7-5a2439146503">
+      <Execution id="a0a456a9-528b-42ee-9be8-2f97db9ce390" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapMaSP" />
+    </UnitTest>
+    <UnitTest name="SuaDonViTinhSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="e480ebaf-11e3-9379-8d39-93e35fd33101">
+      <Execution id="db6ea2ea-35a2-478e-865a-f6af674892b0" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaDonViTinhSP" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapMaNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="8c6549db-e2a2-4179-f3a9-3f3997a92643">
+      <Execution id="7cfca349-0206-4cb7-bca4-106138c984a3" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapMaNCC" />
+    </UnitTest>
+    <UnitTest name="XoaThanhCong" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="6f39459c-2e5f-8b66-ae2f-8b7f8c81fa38">
+      <Execution id="6afeadbb-90a1-4108-b42d-d4f5be5f9afb" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaThanhCong" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapDonGia" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f4d40c7d-421e-7813-06f6-e9ffb920da08">
+      <Execution id="5685dff7-031d-453b-8f11-dd1e74e9f467" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapDonGia" />
+    </UnitTest>
+    <UnitTest name="SuaMaNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="d534cb88-23df-7c31-adbe-7e0498584338">
+      <Execution id="8bca15c4-44b5-44ee-af22-e9c151281e09" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaMaNCC" />
+    </UnitTest>
+    <UnitTest name="XoaKhongNhapMaNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="6ef704cd-3f4d-214e-d52e-ff443ee05349">
+      <Execution id="e6701d84-a2c0-40af-949f-a97a44a31dc4" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaKhongNhapMaNCC" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapMaLoaiSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="ce23eb2e-33d4-108e-904b-60e843105042">
+      <Execution id="b5530339-3670-4943-b28f-e27d304e6e7e" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapMaLoaiSP" />
+    </UnitTest>
+    <UnitTest name="SuaKhongNhapMaNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="2a0ca31e-6e16-c3c4-0c26-ec9f6b3dc0ad">
+      <Execution id="ebb55b2d-87c7-44e0-9ca9-d17dfef42be0" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaKhongNhapMaNCC" />
+    </UnitTest>
+    <UnitTest name="SuaTenSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="6bea3044-66f3-be96-00d5-acf9da500c44">
+      <Execution id="e595bdc6-cb25-4bfe-9128-65bbe9f6e0f9" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaTenSP" />
+    </UnitTest>
+    <UnitTest name="SuaDonGiaSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="ce5bb150-c83c-7504-a750-cb65f1852af9">
+      <Execution id="f38e6d0d-9565-451a-8685-df193830698a" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaDonGiaSP" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapTenNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="e0758d7c-4030-3cf1-be6c-bbac7479e555">
+      <Execution id="fead356a-7f02-4595-97f8-3e6b224a0527" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapTenNCC" />
+    </UnitTest>
+    <UnitTest name="ThemThanhCong" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="2a9ad84d-2473-c864-4e94-cf1e349bee8a">
+      <Execution id="af18dc74-0caf-4b50-b63c-83c886970a17" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemThanhCong" />
+    </UnitTest>
+    <UnitTest name="LoginNhapSaiThongTin" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="961753ab-6838-0ed2-18d8-203f1d61dad3">
+      <Execution id="b84e5936-6b47-475d-8827-8e08e36c77c2" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginNhapSaiThongTin" />
+    </UnitTest>
+    <UnitTest name="TestLoginKhongNhapUser" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="e2f501f7-857d-805c-ee24-a5d2f5520d98">
+      <Execution id="5a9e211a-d735-4de4-b005-45c999948bdf" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoginKhongNhapUser" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapDonViTinh" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f0af479e-513b-fc36-fc5a-213667aca4d2">
+      <Execution id="3dcd0aef-2152-4efa-8e85-2cd81c6c98ac" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapDonViTinh" />
+    </UnitTest>
+    <UnitTest name="LoginKhongNhapThongTin" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="74d44576-8011-fbf1-2066-818783e29ee0">
+      <Execution id="7e282f43-1f1f-4204-88f5-595d6d338f13" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginKhongNhapThongTin" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapDiaChi" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f49688de-bb9e-2e6d-3e23-4b2bd38412f1">
+      <Execution id="a6a814b0-5b3f-4c02-9ec0-c9b870754fc1" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapDiaChi" />
+    </UnitTest>
+    <UnitTest name="TestDangNhapThanhCong" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="fe39e730-c96a-2052-86b3-f4cf718b6c01">
+      <Execution id="9bdb8ff5-8b3f-4478-b467-c3ff2bef1cea" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDangNhapThanhCong" />
+    </UnitTest>
+    <UnitTest name="SuaTenNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="549f6cf3-436c-dc4f-49e9-a76ea449d034">
+      <Execution id="b267a08b-9df6-4d14-9db3-8f119d80ca96" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaTenNCC" />
+    </UnitTest>
+    <UnitTest name="XoaSaiMa" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="7704c972-6301-f770-0c13-3123ea18fa29">
+      <Execution id="c046e93a-7d32-447d-b92f-52a77e92ea67" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaSaiMa" />
+    </UnitTest>
+    <UnitTest name="SuaMaLoaiSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f9856354-8f7a-8144-1a2d-da989471d9f1">
+      <Execution id="5d245d93-d000-48f5-90f6-7ad1ee2dcea8" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaMaLoaiSP" />
+    </UnitTest>
+    <UnitTest name="XoaKhongNhapMaSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="858f2916-5162-dc05-70a1-5066a0cccd76">
+      <Execution id="5b91a553-90bf-4e69-8199-1d7e7e85a252" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaKhongNhapMaSP" />
+    </UnitTest>
+    <UnitTest name="XoaThanhCongNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="43733683-493d-cfb5-8694-3a56e942e9ce">
+      <Execution id="ad255be1-b13f-4717-be9d-fe3297786a6e" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaThanhCongNCC" />
+    </UnitTest>
+    <UnitTest name="ThemNhapMaSPQuaSoKyTu" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="fe141cf2-4a77-ee17-5428-a9fb734a965a">
+      <Execution id="ab1373ec-3ff7-475b-ab0a-ac519b408552" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemNhapMaSPQuaSoKyTu" />
+    </UnitTest>
+    <UnitTest name="SuaKhongNhapMaSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="4b2c07db-3e5c-145c-d970-3bc34904d177">
+      <Execution id="6d2c2cb8-f3eb-43e1-b044-e985dde3dd3f" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SuaKhongNhapMaSP" />
+    </UnitTest>
+    <UnitTest name="ThemNCCThanhCong" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="65ccbd2f-bb6f-9226-dfc8-e2108c8e7bea">
+      <Execution id="f7f45de2-500c-4e05-bdf5-ceae0e35e387" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemNCCThanhCong" />
+    </UnitTest>
+    <UnitTest name="ThemChiNhapTenSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f97b5934-498a-804c-ab0f-b5d79a50c447">
+      <Execution id="2e596a55-19db-4463-8bd0-badceb4ff324" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapTenSP" />
+    </UnitTest>
+    <UnitTest name="XoaSaiMaNCC" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="24cbe705-52da-592e-32df-21d343dd6d02">
+      <Execution id="9111741e-5325-4f0b-92bd-0f233ed536d8" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest2, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XoaSaiMaNCC" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08edbe4f-eebe-3317-b7df-3a53a33d6ca8" executionId="ac690154-c9bb-4d6d-9bcf-3062a7da1995" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24cbe705-52da-592e-32df-21d343dd6d02" executionId="9111741e-5325-4f0b-92bd-0f233ed536d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a0ca31e-6e16-c3c4-0c26-ec9f6b3dc0ad" executionId="ebb55b2d-87c7-44e0-9ca9-d17dfef42be0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a9ad84d-2473-c864-4e94-cf1e349bee8a" executionId="af18dc74-0caf-4b50-b63c-83c886970a17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43733683-493d-cfb5-8694-3a56e942e9ce" executionId="ad255be1-b13f-4717-be9d-fe3297786a6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b2c07db-3e5c-145c-d970-3bc34904d177" executionId="6d2c2cb8-f3eb-43e1-b044-e985dde3dd3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="549f6cf3-436c-dc4f-49e9-a76ea449d034" executionId="b267a08b-9df6-4d14-9db3-8f119d80ca96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65ccbd2f-bb6f-9226-dfc8-e2108c8e7bea" executionId="f7f45de2-500c-4e05-bdf5-ceae0e35e387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bea3044-66f3-be96-00d5-acf9da500c44" executionId="e595bdc6-cb25-4bfe-9128-65bbe9f6e0f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ef704cd-3f4d-214e-d52e-ff443ee05349" executionId="e6701d84-a2c0-40af-949f-a97a44a31dc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f39459c-2e5f-8b66-ae2f-8b7f8c81fa38" executionId="6afeadbb-90a1-4108-b42d-d4f5be5f9afb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74d44576-8011-fbf1-2066-818783e29ee0" executionId="7e282f43-1f1f-4204-88f5-595d6d338f13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7704c972-6301-f770-0c13-3123ea18fa29" executionId="c046e93a-7d32-447d-b92f-52a77e92ea67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="858f2916-5162-dc05-70a1-5066a0cccd76" executionId="5b91a553-90bf-4e69-8199-1d7e7e85a252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c6549db-e2a2-4179-f3a9-3f3997a92643" executionId="7cfca349-0206-4cb7-bca4-106138c984a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="961753ab-6838-0ed2-18d8-203f1d61dad3" executionId="b84e5936-6b47-475d-8827-8e08e36c77c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98024fb3-0c3e-c815-c341-2b996a7a8bb6" executionId="04e2f2e5-0bf1-4b9a-b7f6-88d8f8b7d565" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdc35583-7428-0979-c2a7-5a2439146503" executionId="a0a456a9-528b-42ee-9be8-2f97db9ce390" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdecf54c-19f4-2335-4817-1b319edec0be" executionId="dc0425b9-9fa5-440c-925d-caeb072ba91d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce23eb2e-33d4-108e-904b-60e843105042" executionId="b5530339-3670-4943-b28f-e27d304e6e7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce5bb150-c83c-7504-a750-cb65f1852af9" executionId="f38e6d0d-9565-451a-8685-df193830698a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d504082d-d82e-aded-d6bf-87b2ae561b54" executionId="74353b68-a7c1-4731-a799-b0eb994dbb6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d534cb88-23df-7c31-adbe-7e0498584338" executionId="8bca15c4-44b5-44ee-af22-e9c151281e09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0758d7c-4030-3cf1-be6c-bbac7479e555" executionId="fead356a-7f02-4595-97f8-3e6b224a0527" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2f501f7-857d-805c-ee24-a5d2f5520d98" executionId="5a9e211a-d735-4de4-b005-45c999948bdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e480ebaf-11e3-9379-8d39-93e35fd33101" executionId="db6ea2ea-35a2-478e-865a-f6af674892b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0af479e-513b-fc36-fc5a-213667aca4d2" executionId="3dcd0aef-2152-4efa-8e85-2cd81c6c98ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f49688de-bb9e-2e6d-3e23-4b2bd38412f1" executionId="a6a814b0-5b3f-4c02-9ec0-c9b870754fc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4d40c7d-421e-7813-06f6-e9ffb920da08" executionId="5685dff7-031d-453b-8f11-dd1e74e9f467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f97b5934-498a-804c-ab0f-b5d79a50c447" executionId="2e596a55-19db-4463-8bd0-badceb4ff324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9856354-8f7a-8144-1a2d-da989471d9f1" executionId="5d245d93-d000-48f5-90f6-7ad1ee2dcea8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe141cf2-4a77-ee17-5428-a9fb734a965a" executionId="ab1373ec-3ff7-475b-ab0a-ac519b408552" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe39e730-c96a-2052-86b3-f4cf718b6c01" executionId="9bdb8ff5-8b3f-4478-b467-c3ff2bef1cea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ac690154-c9bb-4d6d-9bcf-3062a7da1995" testId="08edbe4f-eebe-3317-b7df-3a53a33d6ca8" testName="TestLoginKhongNhapPass" computerName="HONGTHY" duration="00:00:00.0260977" startTime="2019-04-11T17:36:03.8522080+07:00" endTime="2019-04-11T17:36:04.2809436+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac690154-c9bb-4d6d-9bcf-3062a7da1995">
+    </UnitTestResult>
+    <UnitTestResult executionId="9111741e-5325-4f0b-92bd-0f233ed536d8" testId="24cbe705-52da-592e-32df-21d343dd6d02" testName="XoaSaiMaNCC" computerName="HONGTHY" duration="00:00:00.0016109" startTime="2019-04-11T17:36:04.2869403+07:00" endTime="2019-04-11T17:36:04.2929362+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9111741e-5325-4f0b-92bd-0f233ed536d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="ebb55b2d-87c7-44e0-9ca9-d17dfef42be0" testId="2a0ca31e-6e16-c3c4-0c26-ec9f6b3dc0ad" testName="SuaKhongNhapMaNCC" computerName="HONGTHY" duration="00:00:00.0031546" startTime="2019-04-11T17:36:04.2989333+07:00" endTime="2019-04-11T17:36:04.3059286+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebb55b2d-87c7-44e0-9ca9-d17dfef42be0">
+    </UnitTestResult>
+    <UnitTestResult executionId="af18dc74-0caf-4b50-b63c-83c886970a17" testId="2a9ad84d-2473-c864-4e94-cf1e349bee8a" testName="ThemThanhCong" computerName="HONGTHY" duration="00:00:00.0173880" startTime="2019-04-11T17:36:04.3119249+07:00" endTime="2019-04-11T17:36:04.3329120+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af18dc74-0caf-4b50-b63c-83c886970a17">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemThanhCong threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SanPham'. Cannot insert duplicate key in object 'dbo.SanPham'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemThanhCong() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad255be1-b13f-4717-be9d-fe3297786a6e" testId="43733683-493d-cfb5-8694-3a56e942e9ce" testName="XoaThanhCongNCC" computerName="HONGTHY" duration="00:00:00.0093895" startTime="2019-04-11T17:36:04.3389100+07:00" endTime="2019-04-11T17:36:04.3529005+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad255be1-b13f-4717-be9d-fe3297786a6e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;-1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest2.XoaThanhCongNCC() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest2.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d2c2cb8-f3eb-43e1-b044-e985dde3dd3f" testId="4b2c07db-3e5c-145c-d970-3bc34904d177" testName="SuaKhongNhapMaSP" computerName="HONGTHY" duration="00:00:00.0045457" startTime="2019-04-11T17:36:04.4110286+07:00" endTime="2019-04-11T17:36:04.4230230+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d2c2cb8-f3eb-43e1-b044-e985dde3dd3f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest1.SuaKhongNhapMaSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b267a08b-9df6-4d14-9db3-8f119d80ca96" testId="549f6cf3-436c-dc4f-49e9-a76ea449d034" testName="SuaTenNCC" computerName="HONGTHY" duration="00:00:00.0017011" startTime="2019-04-11T17:36:04.4320166+07:00" endTime="2019-04-11T17:36:04.4400129+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b267a08b-9df6-4d14-9db3-8f119d80ca96">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7f45de2-500c-4e05-bdf5-ceae0e35e387" testId="65ccbd2f-bb6f-9226-dfc8-e2108c8e7bea" testName="ThemNCCThanhCong" computerName="HONGTHY" duration="00:00:00.0020111" startTime="2019-04-11T17:36:04.4510062+07:00" endTime="2019-04-11T17:36:04.4570016+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7f45de2-500c-4e05-bdf5-ceae0e35e387">
+    </UnitTestResult>
+    <UnitTestResult executionId="e595bdc6-cb25-4bfe-9128-65bbe9f6e0f9" testId="6bea3044-66f3-be96-00d5-acf9da500c44" testName="SuaTenSP" computerName="HONGTHY" duration="00:00:00.0042870" startTime="2019-04-11T17:36:04.5132075+07:00" endTime="2019-04-11T17:36:04.5311896+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e595bdc6-cb25-4bfe-9128-65bbe9f6e0f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6701d84-a2c0-40af-949f-a97a44a31dc4" testId="6ef704cd-3f4d-214e-d52e-ff443ee05349" testName="XoaKhongNhapMaNCC" computerName="HONGTHY" duration="00:00:00.0016126" startTime="2019-04-11T17:36:04.5451792+07:00" endTime="2019-04-11T17:36:04.5551739+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6701d84-a2c0-40af-949f-a97a44a31dc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="6afeadbb-90a1-4108-b42d-d4f5be5f9afb" testId="6f39459c-2e5f-8b66-ae2f-8b7f8c81fa38" testName="XoaThanhCong" computerName="HONGTHY" duration="00:00:00.0019803" startTime="2019-04-11T17:36:04.5661676+07:00" endTime="2019-04-11T17:36:04.5731624+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6afeadbb-90a1-4108-b42d-d4f5be5f9afb">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e282f43-1f1f-4204-88f5-595d6d338f13" testId="74d44576-8011-fbf1-2066-818783e29ee0" testName="LoginKhongNhapThongTin" computerName="HONGTHY" duration="00:00:00.0012756" startTime="2019-04-11T17:36:04.5801581+07:00" endTime="2019-04-11T17:36:04.5861561+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e282f43-1f1f-4204-88f5-595d6d338f13">
+    </UnitTestResult>
+    <UnitTestResult executionId="c046e93a-7d32-447d-b92f-52a77e92ea67" testId="7704c972-6301-f770-0c13-3123ea18fa29" testName="XoaSaiMa" computerName="HONGTHY" duration="00:00:00.0017888" startTime="2019-04-11T17:36:04.5931501+07:00" endTime="2019-04-11T17:36:04.6011448+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c046e93a-7d32-447d-b92f-52a77e92ea67">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b91a553-90bf-4e69-8199-1d7e7e85a252" testId="858f2916-5162-dc05-70a1-5066a0cccd76" testName="XoaKhongNhapMaSP" computerName="HONGTHY" duration="00:00:00.0050080" startTime="2019-04-11T17:36:04.6091399+07:00" endTime="2019-04-11T17:36:04.6211325+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b91a553-90bf-4e69-8199-1d7e7e85a252">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest1.XoaKhongNhapMaSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 180
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7cfca349-0206-4cb7-bca4-106138c984a3" testId="8c6549db-e2a2-4179-f3a9-3f3997a92643" testName="ThemChiNhapMaNCC" computerName="HONGTHY" duration="00:00:00.0055699" startTime="2019-04-11T17:36:04.6301269+07:00" endTime="2019-04-11T17:36:04.6431194+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cfca349-0206-4cb7-bca4-106138c984a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="b84e5936-6b47-475d-8827-8e08e36c77c2" testId="961753ab-6838-0ed2-18d8-203f1d61dad3" testName="LoginNhapSaiThongTin" computerName="HONGTHY" duration="00:00:00.0042562" startTime="2019-04-11T17:36:04.6521134+07:00" endTime="2019-04-11T17:36:04.6621068+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b84e5936-6b47-475d-8827-8e08e36c77c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest1.LoginNhapSaiThongTin() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04e2f2e5-0bf1-4b9a-b7f6-88d8f8b7d565" testId="98024fb3-0c3e-c815-c341-2b996a7a8bb6" testName="ThemChiNhapMaNCCVaTenNCC" computerName="HONGTHY" duration="00:00:00.0025341" startTime="2019-04-11T17:36:04.6721024+07:00" endTime="2019-04-11T17:36:04.6820954+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04e2f2e5-0bf1-4b9a-b7f6-88d8f8b7d565">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0a456a9-528b-42ee-9be8-2f97db9ce390" testId="bdc35583-7428-0979-c2a7-5a2439146503" testName="ThemChiNhapMaSP" computerName="HONGTHY" duration="00:00:00.0019534" startTime="2019-04-11T17:36:04.6910890+07:00" endTime="2019-04-11T17:36:04.6990849+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0a456a9-528b-42ee-9be8-2f97db9ce390">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc0425b9-9fa5-440c-925d-caeb072ba91d" testId="cdecf54c-19f4-2335-4817-1b319edec0be" testName="SuaDiaChiNCC" computerName="HONGTHY" duration="00:00:00.0017319" startTime="2019-04-11T17:36:04.7070800+07:00" endTime="2019-04-11T17:36:04.7140744+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc0425b9-9fa5-440c-925d-caeb072ba91d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5530339-3670-4943-b28f-e27d304e6e7e" testId="ce23eb2e-33d4-108e-904b-60e843105042" testName="ThemChiNhapMaLoaiSP" computerName="HONGTHY" duration="00:00:00.0040202" startTime="2019-04-11T17:36:04.7210705+07:00" endTime="2019-04-11T17:36:04.7310643+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5530339-3670-4943-b28f-e27d304e6e7e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest1.ThemChiNhapMaLoaiSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f38e6d0d-9565-451a-8685-df193830698a" testId="ce5bb150-c83c-7504-a750-cb65f1852af9" testName="SuaDonGiaSP" computerName="HONGTHY" duration="00:00:00.0019243" startTime="2019-04-11T17:36:04.7400592+07:00" endTime="2019-04-11T17:36:04.7490541+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f38e6d0d-9565-451a-8685-df193830698a">
+    </UnitTestResult>
+    <UnitTestResult executionId="74353b68-a7c1-4731-a799-b0eb994dbb6b" testId="d504082d-d82e-aded-d6bf-87b2ae561b54" testName="SuaMaSP" computerName="HONGTHY" duration="00:00:00.0050490" startTime="2019-04-11T17:36:04.7570501+07:00" endTime="2019-04-11T17:36:04.7690422+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74353b68-a7c1-4731-a799-b0eb994dbb6b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest1.SuaMaSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 195
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bca15c4-44b5-44ee-af22-e9c151281e09" testId="d534cb88-23df-7c31-adbe-7e0498584338" testName="SuaMaNCC" computerName="HONGTHY" duration="00:00:00.0015360" startTime="2019-04-11T17:36:04.7790348+07:00" endTime="2019-04-11T17:36:04.7880297+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bca15c4-44b5-44ee-af22-e9c151281e09">
+    </UnitTestResult>
+    <UnitTestResult executionId="fead356a-7f02-4595-97f8-3e6b224a0527" testId="e0758d7c-4030-3cf1-be6c-bbac7479e555" testName="ThemChiNhapTenNCC" computerName="HONGTHY" duration="00:00:00.0040437" startTime="2019-04-11T17:36:04.8190106+07:00" endTime="2019-04-11T17:36:04.8290040+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fead356a-7f02-4595-97f8-3e6b224a0527">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at QLBQCPTest.UnitTest2.ThemChiNhapTenNCC() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest2.cs:line 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a9e211a-d735-4de4-b005-45c999948bdf" testId="e2f501f7-857d-805c-ee24-a5d2f5520d98" testName="TestLoginKhongNhapUser" computerName="HONGTHY" duration="00:00:00.0016126" startTime="2019-04-11T17:36:04.8360002+07:00" endTime="2019-04-11T17:36:04.8439948+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a9e211a-d735-4de4-b005-45c999948bdf">
+    </UnitTestResult>
+    <UnitTestResult executionId="db6ea2ea-35a2-478e-865a-f6af674892b0" testId="e480ebaf-11e3-9379-8d39-93e35fd33101" testName="SuaDonViTinhSP" computerName="HONGTHY" duration="00:00:00.0017674" startTime="2019-04-11T17:36:04.8549880+07:00" endTime="2019-04-11T17:36:04.8619842+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db6ea2ea-35a2-478e-865a-f6af674892b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="3dcd0aef-2152-4efa-8e85-2cd81c6c98ac" testId="f0af479e-513b-fc36-fc5a-213667aca4d2" testName="ThemChiNhapDonViTinh" computerName="HONGTHY" duration="00:00:00.0045808" startTime="2019-04-11T17:36:04.8709803+07:00" endTime="2019-04-11T17:36:04.8809720+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dcd0aef-2152-4efa-8e85-2cd81c6c98ac">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemChiNhapDonViTinh threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SanPham'. Cannot insert duplicate key in object 'dbo.SanPham'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemChiNhapDonViTinh() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6a814b0-5b3f-4c02-9ec0-c9b870754fc1" testId="f49688de-bb9e-2e6d-3e23-4b2bd38412f1" testName="ThemChiNhapDiaChi" computerName="HONGTHY" duration="00:00:00.0109970" startTime="2019-04-11T17:36:04.8899665+07:00" endTime="2019-04-11T17:36:04.9069556+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6a814b0-5b3f-4c02-9ec0-c9b870754fc1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest2.ThemChiNhapDiaChi threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK__Supplier__3213E83F08EA5793'. Cannot insert duplicate key in object 'dbo.Supplier'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.SupplierDAO.Add(Supplier s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\SupplierDAO.cs:line 34
+   at QLBQCPTest.UnitTest2.ThemChiNhapDiaChi() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest2.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5685dff7-031d-453b-8f11-dd1e74e9f467" testId="f4d40c7d-421e-7813-06f6-e9ffb920da08" testName="ThemChiNhapDonGia" computerName="HONGTHY" duration="00:00:00.0089247" startTime="2019-04-11T17:36:04.9169520+07:00" endTime="2019-04-11T17:36:04.9319419+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5685dff7-031d-453b-8f11-dd1e74e9f467">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemChiNhapDonGia threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SanPham'. Cannot insert duplicate key in object 'dbo.SanPham'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemChiNhapDonGia() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e596a55-19db-4463-8bd0-badceb4ff324" testId="f97b5934-498a-804c-ab0f-b5d79a50c447" testName="ThemChiNhapTenSP" computerName="HONGTHY" duration="00:00:00.0069986" startTime="2019-04-11T17:36:04.9449344+07:00" endTime="2019-04-11T17:36:04.9589236+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e596a55-19db-4463-8bd0-badceb4ff324">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemChiNhapTenSP threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SanPham'. Cannot insert duplicate key in object 'dbo.SanPham'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemChiNhapTenSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d245d93-d000-48f5-90f6-7ad1ee2dcea8" testId="f9856354-8f7a-8144-1a2d-da989471d9f1" testName="SuaMaLoaiSP" computerName="HONGTHY" duration="00:00:00.0074220" startTime="2019-04-11T17:36:04.9649208+07:00" endTime="2019-04-11T17:36:04.9759149+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d245d93-d000-48f5-90f6-7ad1ee2dcea8">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab1373ec-3ff7-475b-ab0a-ac519b408552" testId="fe141cf2-4a77-ee17-5428-a9fb734a965a" testName="ThemNhapMaSPQuaSoKyTu" computerName="HONGTHY" duration="00:00:00.0033146" startTime="2019-04-11T17:36:04.9829097+07:00" endTime="2019-04-11T17:36:04.9899054+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab1373ec-3ff7-475b-ab0a-ac519b408552">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemNhapMaSPQuaSoKyTu threw exception: 
+System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemNhapMaSPQuaSoKyTu() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9bdb8ff5-8b3f-4478-b467-c3ff2bef1cea" testId="fe39e730-c96a-2052-86b3-f4cf718b6c01" testName="TestDangNhapThanhCong" computerName="HONGTHY" duration="00:00:00.0048429" startTime="2019-04-11T17:36:04.9959026+07:00" endTime="2019-04-11T17:36:05.0058960+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bdb8ff5-8b3f-4478-b467-c3ff2bef1cea">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e83e1d6f-8959-476a-931a-ad60c935dcfd" name="ADMIN@HONGTHY 2019-04-11 17:53:08" runUser="HONGTHY\ADMIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc75e7d1-cc8f-4277-bdb4-190cc8087d18">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ADMIN_HONGTHY 2019-04-11 17_53_08">
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\DAO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\QuanLyBanHang.exe" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DTO\bin\Debug\DTO.dll" />
+      <DeploymentItem filename="C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\bin\Debug\BUS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-04-11T17:53:08.8961895+07:00" queuing="2019-04-11T17:53:08.9231750+07:00" start="2019-04-11T17:53:08.9301702+07:00" finish="2019-04-11T17:53:09.3489124+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ThemChiNhapTenSP" storage="c:\users\admin\desktop\quan-ly-ban-hang\qlbqcptest\bin\debug\qlbqcptest.dll" id="f97b5934-498a-804c-ab0f-b5d79a50c447">
+      <Execution id="2cb5c805-4ca7-40ee-99de-c18352d1ff2d" />
+      <TestMethod codeBase="C:/Users/ADMIN/Desktop/Quan-Ly-Ban-Hang/QLBQCPTest/bin/Debug/QLBQCPTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QLBQCPTest.UnitTest1, QLBQCPTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThemChiNhapTenSP" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f97b5934-498a-804c-ab0f-b5d79a50c447" executionId="2cb5c805-4ca7-40ee-99de-c18352d1ff2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2cb5c805-4ca7-40ee-99de-c18352d1ff2d" testId="f97b5934-498a-804c-ab0f-b5d79a50c447" testName="ThemChiNhapTenSP" computerName="HONGTHY" duration="00:00:00.0451972" startTime="2019-04-11T17:53:09.0041239+07:00" endTime="2019-04-11T17:53:09.3209305+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cb5c805-4ca7-40ee-99de-c18352d1ff2d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QLBQCPTest.UnitTest1.ThemChiNhapTenSP threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SanPham'. Cannot insert duplicate key in object 'dbo.SanPham'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DAO.DataProvider.MyExecuteNonQuery(String sql) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\DataProvider.cs:line 77
+   at DAO.Products1DAO.Add(Products1 s) in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\DAO\Products1DAO.cs:line 48
+   at QLBQCPTest.UnitTest1.ThemChiNhapTenSP() in C:\Users\ADMIN\Desktop\Quan-Ly-Ban-Hang\QLBQCPTest\UnitTest1.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

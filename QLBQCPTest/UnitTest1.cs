@@ -36,6 +36,7 @@ namespace QLBQCPTest
 
             Assert.IsFalse(condition);
         }
+
         [TestMethod]
         public void TestLoginKhongNhapUser()//Test pass
         {
@@ -179,7 +180,7 @@ namespace QLBQCPTest
 
             Assert.AreEqual(expected, actual);
         }
-
+        
         //Test nút sửa sản phẩm
 
         private Products1 sp2;

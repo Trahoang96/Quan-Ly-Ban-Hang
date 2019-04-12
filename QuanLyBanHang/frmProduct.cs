@@ -49,26 +49,26 @@ namespace QuanLyBanHang
                 MessageBox.Show("Thêm thất bại");
         }
 
-        private void dgvProducts1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int col = e.ColumnIndex;
+        //private void dgvProducts1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    int col = e.ColumnIndex;
 
-            if (dgvProducts1.Columns[col] is DataGridViewButtonColumn && dgvProducts1.Columns[col].Name == "CotXoa")
-            {
-                int row = e.RowIndex;
-                String id = dgvProducts1.Rows[row].Cells["CotCanLay"].Value.ToString();
-                int numberOfRows = proBUS.Delete(id);
+        //    if (dgvProducts1.Columns[col] is DataGridViewButtonColumn && dgvProducts1.Columns[col].Name == "CotXoa")
+        //    {
+        //        int row = e.RowIndex;
+        //        String id = dgvProducts1.Rows[row].Cells["CotCanLay"].Value.ToString();
+        //        int numberOfRows = proBUS.Delete(id);
 
-                if (numberOfRows > 0)
-                {
-                    List<Products1> list = proBUS.LoadProducts1();
-                    dgvProducts1.DataSource = list;
-                    MessageBox.Show("Đã xóa");
-                }
-                else
-                    MessageBox.Show("Xóa thất bại");
-            }
-        }
+        //        if (numberOfRows > 0)
+        //        {
+        //            List<Products1> list = proBUS.LoadProducts1();
+        //            dgvProducts1.DataSource = list;
+        //            MessageBox.Show("Đã xóa");
+        //        }
+        //        else
+        //            MessageBox.Show("Xóa thất bại");
+        //    }
+        //}
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {

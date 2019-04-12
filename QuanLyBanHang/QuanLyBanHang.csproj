@@ -92,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +117,15 @@
       <Project>{DBFBCED4-8755-4276-A6E2-DC475649E010}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20-hinh-anh-ve-hat-ca-phe-day-quyen-ru-cua-huong-vi-1488002689-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_DH_Mở_TPHCM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1-1538454071925869371050.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

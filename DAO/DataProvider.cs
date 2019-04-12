@@ -13,7 +13,7 @@ namespace DAO
 
         public DataProvider()
         {
-            string cnStr = "Data Source=.;Initial Catalog=CoffeeShop2;Integrated Security=True";
+            string cnStr = @"Data Source=.\sqlexpress;Initial Catalog=CoffeeShop2;Integrated Security=True";
             cn = new SqlConnection(cnStr);
         }
         public void Connect()

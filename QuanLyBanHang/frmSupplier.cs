@@ -36,10 +36,6 @@ namespace QuanLyBanHang
             Supplier s = new Supplier(id, name, address);
             int numberOfRows = supBUS.Add(s);
 
-            //if (numberOfRows > 0)
-            //    MessageBox.Show("Them thanh cong!");
-            //else
-            //    MessageBox.Show("Them that bai!");
             if (numberOfRows > 0)
             {
                 List<Supplier> list = supBUS.LoadSupplier();
@@ -50,26 +46,6 @@ namespace QuanLyBanHang
                 MessageBox.Show("Thêm thất bại");
         }
 
-        private void dgvSupplier_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int col = e.ColumnIndex;
-
-            if (dgvSupplier.Columns[col] is DataGridViewButtonColumn && dgvSupplier.Columns[col].Name == "CotXoa")
-            {
-                int row = e.RowIndex;
-                String id = dgvSupplier.Rows[row].Cells["CotCanLay"].Value.ToString();
-                int numberOfRows = supBUS.Delete(id);
-
-                if (numberOfRows > 0)
-                {
-                    List<Supplier> list = supBUS.LoadSupplier();
-                    dgvSupplier.DataSource = list;
-                    MessageBox.Show("Đã xóa");
-                }
-                else
-                    MessageBox.Show("Xóa thất bại");
-            }
-        }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
